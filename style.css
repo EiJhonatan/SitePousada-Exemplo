@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+.menu{
+    background-color: rgb(65, 65, 235);
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.menu ul li:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+.menu ul li {
+    transition: 1s;
+}
+
+.menu ul li a:hover {
+color: black;
+
+}
+
+/* fundo principal aqui*/
+
+.fundo_principal {
+    width: 100%;
+    height: 400px;
+    background-image: url(images/banner.webp);
+    background-size: cover;
+}
+
+/*vantagens aqui*/
+.VANTAGENS{
+padding-bottom: 60px;
+}
+.VANTAGENS-TITULO{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+.VANTAGENS-TITULO h1{
+    color: blue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.VANTAGENS-ITENS{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.itens-vantagens{
+    display: flex;
+    
+}
+.itens{
+    padding-top: 30px;
+   padding-left: 50px;
+}
+
+.itens p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: blue;
+}
+
+.itens-vantagens:hover .itens p{
+   color: black;
+    
+}
+
+
+/*suites aqui*/
+
+.SUITES{
+    width: 100%;
+    background-color: burlywood;
+    padding: 30px 10px 40px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.SUITES2{
+    width: 100%;
+    background-color: rgb(253, 225, 196);
+    padding: 30px 10px 40px 10px;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.SUITES-IMG{
+  width: 50%;
+    display: flex;
+    justify-content: end;
+   
+
+}
+.SUITES-IMG img{
+    
+    margin-right: 50px;
+}
+
+.SUITES-TEXTO{
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.SUITES-TEXTO a{
+    color: blue;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 800;
+    font-size: 30px;
+  
+}
+.SUITES-TEXTO:hover a{
+color: red;
+}
+
+/*reservas aqui*/
+.RESERVAS{
+ display: flex;
+ flex-wrap: wrap;
+ height: 550px;
+}
+.RESERVAS-TITULO{
+    width: 100%;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px 30px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.RESERVAS-TEL{
+     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px 30px 10px;
+    transition: 1s;
+}
+
+.RESERVAS-TEL:hover img{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+.RESERVAS-TEL a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.RESERVAS-TEL a{
+text-decoration: none;
+color: blue;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+font-size: 40px;
+transition: 1s;
+}
+.RESERVAS-TEL:hover a{
+
+    transform: scale(0.9);
+    transition: 1s;
+  
+}
+.RESERVAS-TEL:hover a{
+color: red;
+transition: 1s;
+  
+}
+
+.RESERVAS-TEL img{
+margin-right: 10px;
+transform: rotate(-360deg);
+transition: 1s;
+}
+
+
+.RESERVAS-ENDERECO{
+    width: 100%;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 60px 10px 0px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
